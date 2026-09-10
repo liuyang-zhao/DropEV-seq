@@ -1,0 +1,61 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+
+# Pipeline outputs, logs, and local run metadata
+output/
+logs/
+results/
+README_Log.md
+*.log
+*.lock
+
+# Sequencing reads and alignment/reference files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.bai
+*.sam
+*.cram
+*.crai
+*.fa
+*.fna
+*.fasta
+*.fa.gz
+*.fna.gz
+*.fasta.gz
+*.fai
+*.dict
+*.mmi
+*.bwt
+*.pac
+*.ann
+*.amb
+*.sa
+
+# Generated tables and reports
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.html
+*.json
+*.zip
+*.tar
+*.tar.gz
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

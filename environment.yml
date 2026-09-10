@@ -1,0 +1,15 @@
+name: evdna
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - pandas
+  - openpyxl
+  - psutil
+  - pysam
+  - fastp
+  - fastqc
+  - starcode
+  - bwa
+  - samtools
